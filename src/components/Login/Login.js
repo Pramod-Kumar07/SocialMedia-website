@@ -5,7 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import styles from  "./Login.module.css";
 import playstore from "./playstore.png";
 import microsoft from "./microsoft.png";
-import Footer from "../Footer/Footer";
+import Footer from "./Footer/Footer";
 
 function Login() {
   return (
