@@ -1,0 +1,23 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: rgb(112, 111, 111);
+    font-family: sans-serif;
+}
+
+.footer{
+    display: flex;
+    gap: 1rem;
+}
+
+.footerNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
