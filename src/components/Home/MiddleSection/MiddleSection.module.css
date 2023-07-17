@@ -1,0 +1,170 @@
+.feedContainer{
+    width: 50%;
+    margin-left: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.storiesContainer{
+    display: flex;
+    padding: 2rem 0;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 0.5rem;
+}
+
+.storiesContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: linear-gradient(red, violet,purple, orange,yellow,rgb(200, 45, 71));
+    border-radius: 50%;
+}
+
+.stories:hover{
+    cursor: pointer;
+}
+
+.stories img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    background: white;
+}
+
+.feedCard{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.userDetails{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.userPhoto{
+    padding: 0.1rem;
+    background: linear-gradient(red, violet,purple, orange,yellow,rgb(200, 45, 71));
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.userPhoto:hover{
+    cursor: pointer;
+}
+
+.userPhoto img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.userName{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.userName:hover{
+    cursor: pointer;
+}
+
+.userMore{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.userMore:hover{
+    cursor: pointer;
+}
+
+.feedImage{
+    width: 100%;
+    height: 25rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+}
+
+.feedImage:hover{
+    cursor: pointer;
+}
+
+.feedImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: x-large;
+}
+
+.icons div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons div:hover{
+    cursor: pointer;
+}
+
+.likesCount{
+    padding: 0.5rem 0;
+    font-weight: 600;
+}
+
+.likesCount:hover{
+    cursor: pointer;
+}
+
+.caption{
+    text-align: left;
+}
+
+.caption div{
+    display: flex;
+    gap: 1rem;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    color: lightgray;
+    padding: 0.5rem 0;
+}
+
+.comments:hover{
+    cursor: pointer;
+}
+
+.textField{
+    width: 100%;
+}
+

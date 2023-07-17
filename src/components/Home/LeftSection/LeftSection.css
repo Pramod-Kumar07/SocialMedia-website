@@ -1,0 +1,76 @@
+.leftSection{
+    border-right: 1px solid rgb(211, 209, 209);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logoContainer{
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.logoContainer:hover{
+    cursor: pointer;
+}
+
+.logoContainer img{
+    width: 50%;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.active .icon .fill{
+    fill: black;
+}
+
+.active .search{
+    stroke: black;
+    stroke-width: 3;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.icon:hover{
+    background: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.icon:hover :first-child{
+    transform: scale(1.03);
+}
+
+.icon :first-child{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    color: black;
+}
